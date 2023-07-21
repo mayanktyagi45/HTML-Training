@@ -21,7 +21,7 @@ nav {
   justify-content: space-between;
 }
 
-.image {
+.nav-img {
   height: 30px;
   margin-right: 10px;
 }
@@ -50,12 +50,12 @@ form {
   //border: 2px solid black;
 }
 
-.label {
+.form-info {
   display: block;
   margin-bottom: 5px;
 }
 
-.input {
+.form-input {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
@@ -63,7 +63,7 @@ form {
   border-radius: 4px;
 }
 
-.select {
+.fav-language {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
@@ -96,20 +96,21 @@ button:hover {
   justify-content: center;
 }
 
-.th,
-.td {
+.table-caption {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.table-head,
+.data {
   border: 1px solid #ccc;
   text-align: center;
   padding: 8px;
 }
 
-.th {
+.table-head {
   background-color: #f2f2f2;
-}
-.caption {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
 }
 
 .footer {

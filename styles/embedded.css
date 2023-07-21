@@ -23,17 +23,17 @@ body {
   padding: 10px;
 }
 
-.video {
+.beach-video {
   width: 100%;
 }
 
-.section {
+.about-section {
   flex-basis: 50%;
   box-sizing: border-box;
   padding: 10px;
 }
 
-.audio {
+.beach-audio {
   width: 100%;
   margin-top: 10px;
 }
