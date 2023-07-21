@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Form Lite</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <!-- HEADER -->
+  <body>
+    <header class="header">
+      <nav class="header-content">
+        <a href="https://www.google.com/">
+          <img class="nav-img" src="./assets/google logo.png" alt="Google Logo" />
+        </a>
+        <button class="close-button">x</button>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="heading">Google <span>Form</span></h1>
+      <!-- FORM -->
+      <div>
+        <form action="/" method="POST">
+          <label class="form-info" for="name">Name:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+          <label class="form-info" for="email">Email:</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="xyz@gmail.com"
+            required
+          />
+          <label class="form-info" for="lang">Language</label>
+          <select class="fav-language" name="langauge" id="lang" required>
+            <option value="">Select language</option>
+            <option value="">C++</option>
+            <option value="">Java</option>
+            <option value="">Python</option>
+            <option value="">Javascript</option>
+          </select>
+          <input class="input" type="submit" value="Submit" />
+        </form>
+      </div>
+      <!-- TABLE -->
+      <div class="table_container">
+        <table class="table">
+          <caption class="table-caption">
+            HTML4 vs HTML5
+          </caption>
+          <tr>
+            <th class="table-head">Features</th>
+            <th class="table-head">HTML4</th>
+            <th class="table-head">HTML5</th>
+          </tr>
+          <tr>
+            <td class="data">New Elements and Semantic Tags</td>
+            <td class="data">Elements like nav, header were not present.</td>
+            <td class="data">New element for web structure like nav, header, footer etc.</td>
+          </tr>
+          <tr>
+            <td class="data">Attributes</td>
+            <td class="data">Attributes like charset, async and ping are absent in HTML.</td>
+            <td class="data">Attributes of charset, async and ping are a part of HTML 5.</td>
+          </tr>
+          <tr>
+            <td class="data">Audio and Video Support</td>
+            <td class="data">Required plugins (e.g., Flash) for multimedia</td>
+            <td class="data">Native support for audio and video elements</td>
+          </tr>
+          <tr>
+            <td class="data">Form Enhancements</td>
+            <td class="data">Limited input types (e.g., text, password)</td>
+            <td class="data">Added new input types (e.g., date, email, number, etc.)</td>
+          </tr>
+        </table>
+      </div>
+      <!-- iframe -->
+    </main>
+    <iframe
+      src="embedded.html"
+      width="100%"
+      height="100%"
+      frameborder="0"
+    ></iframe>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <article>
+        <p>&copy Google. All rights reserved.</p>
+        <p>
+          <a href="/">Privacy Policy</a>
+        </p>
+      </article>
+    </footer>
+  </body>
+</html>
